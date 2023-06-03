@@ -1,5 +1,7 @@
 # halodog-flask
 Back-end Flask untuk https://github.com/daffaromero/Halodog
+<br>
+<br>
 
 Machine Learning (CNN - ResNet-50)
 ------
@@ -10,8 +12,12 @@ Machine Learning (CNN - ResNet-50)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)
 
-Kode Machine Learning (image classification) menggunakan model ResNet-50 dari [Tensorflow Hub](https://tfhub.dev/). Dataset diambil dari [Kaggle](https://www.kaggle.com/datasets/lasaljaywardena/animal-images-dataset). Model menerima input gambar yang diubah menjadi tensor. Akurasi mencapai 92-93% dengan ResNet-50.
+Kode machine learning (image classification) menggunakan transfer learning dengan base model ResNet-50 dari [Tensorflow Hub](https://tfhub.dev/). Dataset diambil dari [Kaggle](https://www.kaggle.com/datasets/lasaljaywardena/animal-images-dataset). Model menerima input gambar yang diubah menjadi tensor. Akurasi mencapai 92-93% dengan ResNet-50.
 
+------
+**EN:** This machine learning (image classification) code uses ResNet-50 as its base model for transfer learning, taken from [Tensorflow Hub](https://tfhub.dev/). The dataset used for training is taken straight from [Kaggle](https://www.kaggle.com/datasets/lasaljaywardena/animal-images-dataset). The model takes images (converted to tensors) as input. Accuracy reaches 92-93% with ResNet-50.
+<br>
+<br>
 
 Back-end (Flask + Azure)
 ------
@@ -27,5 +33,12 @@ Route yang tersedia:
 - '/' (GET): home page
 - '/predict' (GET, POST): hasil prediksi foto dari URL
 
+------
+**EN:** Written in Python (Flask) and deployed on an Azure VM (Ubuntu 20.04) on this URL: http://tulations.eastus.cloudapp.azure.com:5000
+
+Available routes:
+
+- '/' (GET): home page
+- '/predict' (GET, POST): prediction result of a photo from a URL
 
 Daffa Muhammad Romero, 2023
