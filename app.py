@@ -8,6 +8,7 @@ import requests  # move requests to the end of the imports
 
 app = Flask(__name__)
 
+
 model = load_model('models/dafrom_model.h5', custom_objects={
                    'KerasLayer': hub.KerasLayer})
 print('Loaded model: ', model)
