@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'tulations'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D67C301C217D4C6EBDB72388C0335651 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6192118BDEF04A58903421A3D03424F3 }}
