@@ -5,9 +5,10 @@ from keras.models import load_model
 import tensorflow_hub as hub
 from io import BytesIO
 import requests  # move requests to the end of the imports
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app)
 
 model = load_model('models/dafrom_model.h5', custom_objects={
                    'KerasLayer': hub.KerasLayer})
