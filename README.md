@@ -28,6 +28,8 @@ Back-end (Flask + Azure)
 
 Ditulis dalam bahasa Python (Flask) dan di-deploy menggunakan Azure VM (Ubuntu 20.04) di URL: http://tulations.eastus.cloudapp.azure.com:5000
 
+Inbound port: 22, 80, 443, 3389, 5000 (Flask), 8000
+
 Route yang tersedia:
 
 - '/' (GET): home page
@@ -35,6 +37,8 @@ Route yang tersedia:
 
 ------
 **EN:** Written in Python (Flask) and deployed on an Azure VM (Ubuntu 20.04) on this URL: http://tulations.eastus.cloudapp.azure.com:5000
+
+Inbound ports: 22, 80, 443, 3389, 5000 (Flask), 8000
 
 Available routes:
 
